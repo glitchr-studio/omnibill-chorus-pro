@@ -1,0 +1,29 @@
+{
+  "codeRetour": 0,
+  "libelle": "TRA_MSG_00.000",
+  "parametresRetour": {"pageCourante": 1, "pages": 1, "nbResultatsParPage": 10, "total": 1},
+  "listeFactures": [
+    {
+      "identifiantFactureCPP": 4321098,
+      "typeDemandePaiement": "FACTURE",
+      "codeFournisseur": "12345678900011",
+      "typeIdentifiantFournisseur": "SIRET",
+      "designationFournisseur": "ATELIER TILLEUL",
+      "codeDestinataire": "11000201100044",
+      "designationDestinataire": "COMMUNE EXEMPLE",
+      "typeFacture": "FACTURE",
+      "numeroFacture": "F-2026-042",
+      "dateFacture": "2026-10-07",
+      "dateDepot": "2026-10-08",
+      "montantHT": 1041.67,
+      "montantTTC": 1250.0,
+      "devise": "EUR",
+      "statut": "MISE_A_DISPOSITION",
+      "numeroFluxDepot": "CPP0021100000000000000023",
+      "modeDepot": "EDI",
+      "dateHeureEtatCourant": "2026-10-08T10:12:00+02:00",
+      "commentaireEtatCourant": "",
+      "rejetTraite": false
+    }
+  ]
+}

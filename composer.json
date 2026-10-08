@@ -1,0 +1,45 @@
+{
+    "name": "omnibill/chorus-pro",
+    "type": "library",
+    "description": "Omnibill Chorus Pro: invoices to the French public sector through PISTE - a conformant file deposited (deposer/flux), its deposit followed and the invoice's status read (rechercher/fournisseur), the PISTE client credentials and the technical account's cpro-account header.",
+    "keywords": [
+        "invoice",
+        "e-invoicing",
+        "chorus-pro",
+        "piste",
+        "b2g",
+        "omnibill"
+    ],
+    "homepage": "https://github.com/glitchr-studio/omnibill-chorus-pro",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnibill": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnibill\\ChorusPro\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnibill\\ChorusPro\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
