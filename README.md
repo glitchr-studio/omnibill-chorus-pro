@@ -23,4 +23,4 @@ services. **Not verified in real: no PISTE account.**
 
 [Documentation](docs/index.md): the options, the routes, the statuses' reading, what was verified.
 
-License: LGPL-3.0-or-later.
+License: MIT since 2026-10-09; earlier versions remain published under LGPL-3.0-or-later.
